@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .con{
+            width: 100%;
+            height: 100vh;
+            background-color: yellowgreen;
+            display: contents;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="con">
+
+        <h1 id="text"></h1>
+    </div>
+
+
+    <script>
+
+        let text = document.getElementById("text");
+
+        text.innerHTML = "Hello Javascript"
+        
+    </script>
+</body>
+</html>
